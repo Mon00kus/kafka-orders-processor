@@ -1,0 +1,19 @@
+# Archivos binarios y de compilación
+[Bb]in/
+[Oo]bj/
+*.log
+*.vspscc
+*.vssscc
+
+# Archivos de Visual Studio, caché y usuario
+.vs/                   # <-- ¡ESTO ES LO MÁS IMPORTANTE PARA TU ERROR!
+*.user
+*.suo
+
+# Paquetes NuGet
+[Pp]ackages/
+
+# Archivos de depuración y contenedores
+*.pdb
+*.pid
+Docker/docker-compose*.yml

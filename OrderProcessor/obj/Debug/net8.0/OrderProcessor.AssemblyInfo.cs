@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("dotnet-OrderProcessor-9e572ece-635f-4282-90c2-42fba7d0db74")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrderProcessor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00ff662b53315527bbbbffdbc4a7a4d38f9a840d")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrderProcessor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrderProcessor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

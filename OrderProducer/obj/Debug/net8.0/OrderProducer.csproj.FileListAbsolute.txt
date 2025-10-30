@@ -59,3 +59,6 @@ D:\kafka-orders-processor\OrderProducer\obj\Debug\net8.0\refint\OrderProducer.dl
 D:\kafka-orders-processor\OrderProducer\obj\Debug\net8.0\OrderProducer.pdb
 D:\kafka-orders-processor\OrderProducer\obj\Debug\net8.0\OrderProducer.genruntimeconfig.cache
 D:\kafka-orders-processor\OrderProducer\obj\Debug\net8.0\ref\OrderProducer.dll
+D:\kafka-orders-processor\OrderProducer\bin\Debug\net8.0\Models.dll
+D:\kafka-orders-processor\OrderProducer\bin\Debug\net8.0\Models.pdb
+D:\kafka-orders-processor\OrderProducer\obj\Debug\net8.0\OrderProducer.sourcelink.json

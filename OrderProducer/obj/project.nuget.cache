@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qQ+a+m2U73U=",
+  "dgSpecHash": "j9Sb6Dn+POY=",
   "success": true,
   "projectFilePath": "D:\\kafka-orders-processor\\OrderProducer\\OrderProducer.csproj",
   "expectedPackageFiles": [
