@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "48C4Zk0CinbnWfGR+YFdeS0faYMrKFSZOlspTy1/CH8=",
+  "Source": "OrderProducer",
+  "BasePath": "_content/OrderProducer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
