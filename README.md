@@ -1,6 +1,7 @@
 1. Crear el archivo docker-compose.yml
   Crea un archivo llamado docker-compose.yml en un directorio vacío y pega el siguiente contenido. Esta configuración utiliza imágenes oficiales y expone los puertos necesarios para que tus aplicaciones .NET puedan conectarse.
     ###########################################################################  
+
     version: '3.8'
 
     services:
@@ -30,21 +31,28 @@
           KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
           KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
           KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+
     ############################################################################
 
 2. Iniciar los contenedores
-  Abre tu terminal en el mismo directorio donde guardaste el archivo docker-compose.yml y ejecuta el siguiente comando:
+  Abre tu terminal en el mismo directorio donde guardaste el archivo docker-compose.yml y ejecuta el siguiente comando (TAMBIEN PUEDES HACERLO DESDE LA TERMINAL DE DOCKER DESKTOP):
+
     ###
+
     docker-compose up -d
+
     ###
+
   Esto descargará las imágenes necesarias y levantará los contenedores de Zookeeper y Kafka en segundo plano.
 
 3. Verificar que los contenedores estén corriendo
 
     ###
+
     docker ps
 
     ###
+    
 4. Conexión desde tu Aplicación .NET
 
   Una vez que Kafka esté corriendo, la configuración que debes usar en tus proyectos de .NET (OrderProducer y OrderProcessor) será:
